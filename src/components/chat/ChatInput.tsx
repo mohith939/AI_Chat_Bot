@@ -109,7 +109,7 @@ export default function ChatInput({
                 } ${!isOllamaAvailable ? 'opacity-50 cursor-not-allowed' : 'hover:ring-2 hover:ring-offset-1'}`}
                 title={!isOllamaAvailable ? 'Ollama not available' : 'Toggle AI provider'}
                 aria-label={`Current AI provider: ${aiProvider}. ${isOllamaAvailable ? 'Click to switch to ' + (aiProvider === 'gemini' ? 'Ollama' : 'Gemini') : 'Ollama is not available'}`}
-                aria-pressed={aiProvider === 'ollama'}
+                aria-checked={aiProvider === 'ollama'}
                 role="switch"
               >
                 <span className="flex items-center">
