@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Free AI Chat App with Gemini + Ollama (Llama 2)
 
 A cost-free full-stack chat application that integrates with both Google's Gemini API (cloud) and Ollama (local) for AI responses.
@@ -337,3 +338,6 @@ MIT
 - [Google Gemini API](https://ai.google.dev/)
 - [Ollama](https://ollama.ai/)
 - [Tailwind CSS](https://tailwindcss.com/)
+=======
+# AI_Chat_Bot
+>>>>>>> 926992310cf15d94142a67b58c5c94684b161754
